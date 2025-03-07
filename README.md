@@ -2,8 +2,9 @@
 
 # Modelos con datos de WhatsApp
 
-> En este trabajo se realizó ingeniería de variables a partir de una conversación de WhatsApp, con el objetivo de desarrollar dos modelos utilizando Random Forest. El primer modelo, implementado con RandomForestRegressor, predice el tiempo de respuesta de los mensajes.
-> El segundo modelo clasifica una variable categórica que indica si el mensaje siguiente corresponde a una conversación continua o esporádica.
+> En este trabajo se realizó ingeniería de variables a partir de una conversación de WhatsApp con el objetivo de desarrollar cuatro modelos: dos utilizando Random Forest y dos modelos lineales (Regresión Lineal y Regresión Logística). 
+> Se entrenaron modelos para dos variables objetivo: una para predecir el tiempo hasta el siguiente mensaje y otra para clasificar el tipo de mensaje siguiente (si es continuo o esporádico).
+> En cada notebook se construyeron modelos para ambas variables, uno basado en Random Forest y otro en modelos lineales.
 
 - Python
 - pandas
